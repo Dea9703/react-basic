@@ -11,11 +11,9 @@ const flag = true;
 function App() {
   return (
     <div className="App">
-      <main>
-        { name }
-        { getAge() }
-        { flag ? "真棒" : "真菜" }
-      </main>
+      { name }
+      { getAge() }
+      { flag ? "真棒" : "真菜" }
     </div>
   );
 }
