@@ -7,7 +7,6 @@ const styleObj = {
   backgroundColor: '#f01a9e'
 }
 
-// 3. 消费数据
 function ListItem (props) {
   const { removeItem, item } = props
   const { id, name, price, info } = item
@@ -21,7 +20,6 @@ function ListItem (props) {
   )
 }
 
-// 2. 提供数据
 class App extends React.Component {
   state = {
     // 列表数据
