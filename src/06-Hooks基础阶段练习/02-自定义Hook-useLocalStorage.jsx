@@ -12,7 +12,7 @@ function App () {
   }, 5000)
 
   return (
-    <div style={{ height: '12000px' }}>
+    <div>
       {message}
     </div>
   )
